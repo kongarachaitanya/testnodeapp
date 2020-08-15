@@ -1,0 +1,29 @@
+{
+  "name": "testnodeapp",
+  "version": "1.0.0",
+  "description": "testapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kongarachaitanya/testnodeapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kongarachaitanya/testnodeapp/issues"
+  },
+  "homepage": "https://github.com/kongarachaitanya/testnodeapp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+},
+  "devDependencies": {
+    "mocha": "^8.1.1",
+    "supertest": "^4.0.2"
+  }
+}
